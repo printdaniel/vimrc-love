@@ -45,6 +45,7 @@ Plug 'morhetz/gruvbox'
 
 Plug 'shinchu/lightline-gruvbox.vim'
 
+Plug 'artanikin/vim-synthwave84'
 "Easy Motion
 Plug 'easymotion/vim-easymotion'
 
