@@ -6,7 +6,6 @@
 "╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 " Daniel Suarez               
 				    
-
 "---------------------------------vim config---------------------------- 
 syntax on 
 set number 
@@ -17,7 +16,7 @@ set ruler
 set encoding=UTF-8
 set showmatch
 set sw=2
-set relativenumber
+"set relativenumber
 let mapleader = " "
 set laststatus=2
 set backspace=2
@@ -43,12 +42,8 @@ source $HOME/.config/nvim/plug-config/coc.vim
 call plug#begin()
 "Temas
 Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
-Plug 'sheerun/vim-polyglot'
-Plug 'joshdick/onedark.vim'
-Plug 'safv12/andromeda.vim'
-Plug 'ghifarit53/tokyonight-vim'
 
+Plug 'shinchu/lightline-gruvbox.vim'
 
 "Easy Motion
 Plug 'easymotion/vim-easymotion'
@@ -97,9 +92,8 @@ nmap <leader>bd :bdelete<CR>
 let NERDTreeQuitOnOpen=1
 let g:airline_theme='dark'
 set background=dark
-let g:gruvbox_contrast_dark="hard"
-colorscheme gruvbox
-
+"let g:gruvbox_contrast_dark="hard"
+colorscheme synthwave84
 
 "▄▀█ █ █▀█ █░░ █ █▄░█ █▀▀
 "█▀█ █ █▀▄ █▄▄ █ █░▀█ ██▄
