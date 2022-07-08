@@ -16,7 +16,7 @@ set ruler
 set encoding=UTF-8
 set showmatch
 set sw=2
-"set relativenumber
+set relativenumber
 let mapleader = " "
 set laststatus=2
 set backspace=2
@@ -42,10 +42,10 @@ source $HOME/.config/nvim/plug-config/coc.vim
 call plug#begin()
 "Temas
 Plug 'morhetz/gruvbox'
-
 Plug 'shinchu/lightline-gruvbox.vim'
 
 Plug 'artanikin/vim-synthwave84'
+
 "Easy Motion
 Plug 'easymotion/vim-easymotion'
 
@@ -93,8 +93,8 @@ nmap <leader>bd :bdelete<CR>
 let NERDTreeQuitOnOpen=1
 let g:airline_theme='dark'
 set background=dark
-"let g:gruvbox_contrast_dark="hard"
-colorscheme synthwave84
+let g:gruvbox_contrast_dark="hard"
+colorscheme gruvbox
 
 "▄▀█ █ █▀█ █░░ █ █▄░█ █▀▀
 "█▀█ █ █▀▄ █▄▄ █ █░▀█ ██▄
